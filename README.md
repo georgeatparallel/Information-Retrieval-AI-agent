@@ -289,6 +289,10 @@ Add a new tool by subclassing `Tool` and registering it in
 `AppContainer._build_tools` — the agent automatically advertises it to the
 LLM through OpenAI function calling.
 
+For a standalone research workflow, see the
+[Parallel MCP example](examples/README.md): search current web sources, review
+their excerpts, and upload the exported Markdown into the document corpus.
+
 ## Development
 
 ```bash
